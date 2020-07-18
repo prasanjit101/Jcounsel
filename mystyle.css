@@ -3,6 +3,7 @@ body,footer{
 	width: 100%;
 	margin: 0;
 	color:white;
+	transition: 0.7s;
 }
 div{
 	text-align: center;
@@ -11,29 +12,33 @@ body{
 	line-height: 1;
 	margin: 0;
 	background-image: url("my.jpg");
+	background-attachment:fixed;
 }
 nav{
 	width:100%;
 }
+/* navbar */
 .flexing ul{
 	margin : 0;
 	overflow: hidden;}
-.floal .floar{
-	font-size: 40px;
-	color: white;
-	float: left;
-
-}
+.floal{
+		background-color:#0c0e0fa6;
+	}
+.floal img{floa}
 .flexing ul li {
 	list-style: none;
 	float: right;
 	text-decoration: none;
 	text-align: center;
 	display: block;
-	padding: 44px 14px 14px 24px;
+	padding: 44px 14px 14px 14px;
 	min-height: 16px;
 	text-transform: uppercase;
 	opacity: 1;
+	font-family: times new roman;
+}
+.flexing ul li:hover{
+	font-size:24px;
 }
 .flexing ul li a{
 	text-decoration: none;
@@ -53,7 +58,48 @@ nav{
 .contain{
 	float: right;
 }
+
+.fa:hover{
+	font-size: 14px;
+}
+/* navbar end */
+/* main input section */
 .row1{
 	vertical-align: middle;
 	display: table-cell;
+}
+.online-form .category {
+	height: 50px;
+	padding-left: 15px;
+	width: 57px;
+	border-radius: 29px;
+}
+
+.online-form .inputs{
+    height: 50px;
+	  padding-left: 25px;
+    border-radius: 29px;
+	width: 25%;
+}
+.online-form .button{
+	background-color: #29ca8e;
+	height: 50px;width: 124px;
+	margin-left: -42px;
+	color: white;
+	border:0;
+    border-radius: 29px;
+	font-family: Times new roman
+}
+.online-form .button:hover{
+	background-color: cadetblue;
+}
+.home-info{
+	background-color: #0c0e0fa6;
+	padding-bottom:77px;
+}
+/* main input section end */
+/* make this section plain */
+.features{
+	background-color: white;
+	color:black;
 }
