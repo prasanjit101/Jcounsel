@@ -13,6 +13,7 @@ body{
 	margin: 0;
 	background-image: url("my.jpg");
 	background-attachment:fixed;
+	background-size: cover;
 }
 nav{
 	width:100%;
@@ -54,11 +55,11 @@ nav{
 	opacity: 1;
 	width:100%;
 }
-.searhc{
+.searchc{
  float: right;
  padding: 5px;
- position: fixed;
  border:0;
+ margin: 15px 57px;
 }
 .fa{
 	color:white;
@@ -109,4 +110,17 @@ nav{
 .features{
 	background-color: white;
 	color:black;
+}
+				/* below section is for media query */
+@media screen and (max-width: 680px){
+	.online-form .button{
+		width: 74px;
+		margin-left: -32px;
+	}
+	.online-form .inputs{
+		width: 35%;
+	}
+	div.searchc input{
+		width: 150px;
+	}
 }
