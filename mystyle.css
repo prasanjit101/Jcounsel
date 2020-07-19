@@ -11,7 +11,7 @@ div{
 body{
 	line-height: 1;
 	margin: 0;
-	background-image: url("my.jpg");
+	background-image: url("my2.jpg");
 	background-attachment:fixed;
 	background-size: cover;
 }
@@ -102,7 +102,7 @@ nav{
 	background-color: #2dafe1;
 }
 .home-info{
-	background-color: #0c0e0fa6;
+	background-color: #0c0e0f73;
 	padding-bottom:77px;
 }
 /* main input section end */
