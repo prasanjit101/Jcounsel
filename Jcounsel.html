@@ -2,17 +2,18 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Let's predict your RANK!
+<title>See what you get!
 </title>
 <link href="mystyle.css" rel="stylesheet">
 </head>
 <body>
 <!-- navbar -->
- <div class="flexing">
+ <div id="scrollappear" class="flexing" >
 	<ul class="floal">
-	  <!-- logo or Brand start to be entered-->
-	  <img src="logo.jpg">
-	  <div class="contain" style="width: 446px;margin-top: 20px;">
+	  <!-- logo or Brand 
+	  <img src="logo.jpg">start to be entered-->
+	  
+	  <div class="contain" style="width: 446px;margin-top: 20px; ">
 		<div class="searchc " style="margin: 20px 57px;">
 			<form action="/action_page.php">
 			  <input type="search" placeholder="manual search for college" name="search" style="padding: 7px;width: 250px;padding-right: 5px;padding-left: 5px;border-radius: 5px;padding-top: 5px;padding-bottom: 5px;">
@@ -20,28 +21,43 @@
 			</form>
 		 </div>
 		 </div>
-	  <li><a href="#"><b>Drop down</b></a></li>
+	  <li><a href="#"><b>HOME</b></a></li>
 	  <li><a href="#"><b>Services</b></a></li>
-	  <li><a href="#intro"><b>Home</b></a></li>
+	  <!-- dropdown as desired -->
+	  <li><a href="#intro"><b>DropDown</b></a></li>
+	  <!-- ends here -->
 	</ul>
 </div>
 <!---->
 <!-- main section view-->
-<div class="home-info" style="padding-top: 100px;">
-<!-- quotes swiping section start, quotes will slide side by side -->
-<div class="sidescroll" style="font-size: 35px;word-spacing: 5px;font-family: monotype corsiva;color: burlywood;padding-top:30px">
-   <quotes><i>"Never give up"</i></quotes> </div>
+<div class="home-info" style="padding-top: 200px;padding-bottom: 90px;">
+<!-- quotes swiping section , quotes will slide side by side -->
+<div style="font-size: 35px;word-spacing: 5px;font-family: monotype corsiva; color: burlywood; padding-top:30px">
+   <quotes class="sidescroll"><i>"Never give up"</i></quotes>
+   <quotes class="sidescroll"><i>Trying to do</i></quotes>
+   <quotes class="sidescroll"><i>where there is love and inspiration</i></quotes>
+   <quotes class="sidescroll"><i>you cannot go wrong</i></quotes> </div>
    <!-- end -->
    <!-- input section start -->
           <h1 style="padding-top: 25px;word-spacing: 7px;font-family: times new roman;">LET'S PREDICT YOUR COLLEGE!</h1>
            <form action="" method="get" class="online-form">
-		    <input type="" class="formcontrol category" placeholder="Category"
-			style="height: 45px;">
+		    <!-- categoryinput -->
+			<select id="category" class="formcontrol category" name="name" style="height: 45px;width:67px;">
+				<option value="GEN">GEN</option>
+				<option value="EWS">EWS</option>
+				<option value="OBC">OBC</option>
+				<option value="SC">SC</option>
+				<option value="ST">ST</option>
+			  </select>
+
+			<!-- rank input -->
             <input type="search" name="search" class="formcontrol inputs" placeholder="Enter your rank" required="">
+			<!-- submit button -->
            <button type="submit" class="formcontrol button"><b>PREDICT</b></button>
            </form>
+		   <!-- filters -->
 		   <div class="filters">
-			<h4>FILTERS : </h4>
+		
 			</div>
 			<!-- input section end -->				
 </div>
@@ -50,9 +66,10 @@
 <p style="margin:0; padding:100px 50px;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempus dapibus purus sed placerat. Nulla facilisi. Mauris dapibus ac elit a mollis. Vivamus maximus maximus finibus. Aenean pharetra nunc sit amet cursus mattis. Donec mattis a eros sit amet hendrerit. Nullam at orci ut ipsum porta porta a vitae tellus. In lacinia diam quam, quis pellentesque metus varius vitae. Phasellus rhoncus, nunc at fringilla fermentum, augue nunc egestas sem, et varius ipsum purus aliquam quam. In semper massa id congue bibendum. Suspendisse a nisl ligula. Nulla eu tempus leo, id fringilla nisl. Curabitur a finibus nisl.
 
 Vestibulum arcu est, porta id lorem nec, eleifend feugiat lectus. Fusce iaculis, felis quis elementum congue, justo dui pretium mi, sed cursus felis ante in felis. Duis a tempor lorem, in iaculis purus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed mattis leo nec scelerisque mollis. Nunc nec orci rhoncus, tristique dolor quis, interdum nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum euismod lacus est, sed auctor neque laoreet vel. Suspendisse quis vehicula nibh, vel facilisis arcu. Aliquam sagittis lorem leo, ut ullamcorper neque consequat id. Vestibulum quis nulla leo. Vivamus viverra ipsum quis urna aliquam scelerisque. Nunc nec nisl sed velit tempus mollis eu at felis. Quisque maximus odio at lectus faucibus, a mattis lacus volutpat. Nunc ac eros ut risus commodo aliquam in eget felis. </p>
-</div >
+</div>
 <!-- footer if needed will go in the below block -->
 <div class="footer">
 </div>
+<script src="fx.js"></script>
 </body>
 </html>

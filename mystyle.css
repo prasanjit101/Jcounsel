@@ -23,11 +23,16 @@ nav{
 	overflow: hidden;}
 .floal{
 		background-color:#0c0e0fa6;
+		height:90px;
+		position:fixed;
+		transition: 0.5s all ease-in-out;
+		
 	}
-.floal img{floa}
-.flexing ul li {
+
+
+.flexing ul li{
 	list-style: none;
-	float: right;
+	float: left;
 	text-decoration: none;
 	text-align: center;
 	display: block;
@@ -47,10 +52,13 @@ nav{
 }
 .floal{
 	opacity: 1;
+	width:100%;
 }
 .searhc{
  float: right;
  padding: 5px;
+ position: fixed;
+ border:0;
 }
 .fa{
 	color:white;
@@ -71,7 +79,6 @@ nav{
 .online-form .category {
 	height: 50px;
 	padding-left: 15px;
-	width: 57px;
 	border-radius: 29px;
 }
 
@@ -91,7 +98,7 @@ nav{
 	font-family: Times new roman
 }
 .online-form .button:hover{
-	background-color: cadetblue;
+	background-color: #2dafe1;
 }
 .home-info{
 	background-color: #0c0e0fa6;
